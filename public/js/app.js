@@ -89,7 +89,7 @@ app.controller('activitiesController', function($scope, $rootScope, $filter, Use
   };
 
   $scope.deleteActivity = function(id) {
-    if (!confirm('Do you really want to delete this expenses?')) {
+    if (!confirm('Do you really want to delete this expense?')) {
       return;
     }
 

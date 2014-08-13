@@ -8,7 +8,7 @@ class ActicityTableSeeder extends Seeder {
 
     $faker = Faker\Factory::create('de_DE');
 
-    for ($i = 0; $i < 50; $i++) {
+    for ($i = 0; $i < 15; $i++) {
       $id = $i + 1;
       $title = $faker->text(30);
       $date = $faker->dateTimeThisYear();
